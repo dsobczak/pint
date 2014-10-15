@@ -32,4 +32,4 @@ def index():
         return "[{}]".format(','.join([line.strip() for line in outfile]))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
